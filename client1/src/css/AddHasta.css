@@ -1,0 +1,103 @@
+/* AddHasta.css */
+
+.add-hasta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Tüm elemanları sola hizalayın */
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(173, 255, 47, 0.8); /* Açık yeşil arka plan, %80 opaklık */
+}
+
+.add-hasta-container input[type="text"],
+.add-hasta-container select {
+  width: calc(100% / 3 - 20px); /* Ekranın genişliğinin 1/3'ü - kenar boşlukları */
+  height: 40px;
+  margin: 10px 20px; /* Sağ ve sol kenar boşlukları */
+  padding: 5px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.5); /* Beyaz arka plan, %50 opaklık */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-hasta-container textarea {
+  width: calc(2 * 100% / 3 - 20px); /* Ekranın genişliğinin 2/3'ü - kenar boşlukları */
+  height: 120px; /* Yüksekliği artırın */
+  margin: 10px 20px; /* Sağ ve sol kenar boşlukları */
+  padding: 5px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.5); /* Beyaz arka plan, %50 opaklık */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-hasta-container select option {
+  background-color: rgba(255, 255, 255, 0.5); /* Beyaz arka plan, %50 opaklık */
+}
+
+
+.add-button {
+  width: calc(100% / 3 - 20px); /* Ekranın genişliğinin 1/3'ü - kenar boşlukları */
+  height: 50px;
+  margin-top: auto; /* Otomatik üst boşluk (daha aşağıya taşır) */
+  margin-bottom: 20px; /* Alt boşluk */
+  margin-left: 90px; /* Butonu sağa kaydır */
+  background-color: rgb(72, 158, 144) !important; /* Öncelikli olarak mavi arka plan */
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color:  rgb(72, 158, 144) !important; /* Öncelikli olarak koyu mavi arka plan */
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(72, 158, 144);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.back-button:hover {
+  background-color: rgb(97, 172, 160);
+}
+
+.hasta-list {
+  justify-content: flex-end;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: none;
+}
+
+.hasta-list h3 {
+  margin-bottom: 10px;
+}
+
+.hasta-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+.hasta-list li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: lightgrey;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+

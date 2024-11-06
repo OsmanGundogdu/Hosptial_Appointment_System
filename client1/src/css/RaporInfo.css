@@ -1,0 +1,11 @@
+.rapor-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+  }
+  
+  .rapor-info p {
+    margin: 0;
+  }
+  

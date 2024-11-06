@@ -1,0 +1,202 @@
+/* .hasta-home-container {
+    background-image: url('../image/login.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .doktor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  .doktor-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin: 10px;
+    background: transparent;
+    border: 2px solid grey
+  }
+  
+  .doktor-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .doktor-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .doktor-card button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(72, 158, 144);
+    color: white;
+  }
+
+  .doktor-card:hover{
+    background-color: lightgrey;
+ }
+   */
+
+   /* .hasta-home-container {
+    background-size: cover;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .doktor-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  .doktor-card {
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.2s;
+  }
+  
+  .doktor-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .doktor-card h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .doktor-card p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .doktor-card button {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background: rgb(97, 172, 160);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .doktor-card:hover button {
+    display: block;
+  }
+   */
+
+   .hasta-home-container {
+    background-size: cover;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .doktor-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .doktor-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(72, 158, 144);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    transition: 0.5s;
+  }
+  
+  
+  .doktor-card h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .doktor-card p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: white;
+  }
+
+  .randevu-al{
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: grey;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+  }
+
+  .randevu-al:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+  }
+
+  

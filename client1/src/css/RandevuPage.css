@@ -1,0 +1,97 @@
+.schedule-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: url('../image/login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .back-button-container {
+    margin-left: 20px; /* Geri butonunu sola yasla */
+  }
+  
+  .back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: green;
+  }
+  
+  .back-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .date-picker-container {
+    margin-bottom: 20px;
+  }
+  
+  .react-datepicker {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: 2px solid grey;
+    padding: 8px;
+  }
+  
+  .time-slots {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .time-slot {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid grey;
+  }
+  
+  .time-slot.selected {
+    background-color: green;
+    color: white;
+    border-color: green;
+  }
+  
+  .randevu-button-container {
+    margin-top: 20px;
+  }
+  
+  .randevu-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .randevu-button:hover {
+    background-color: green;
+  }
+  
+  .randevu-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
